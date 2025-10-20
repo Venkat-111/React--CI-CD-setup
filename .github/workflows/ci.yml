@@ -14,3 +14,5 @@ jobs:
                node-version: '21'
            - name: "clone repo"
              uses: actions/checkout@v2
+           - name: "install dependencies"
+             run: npm install   
